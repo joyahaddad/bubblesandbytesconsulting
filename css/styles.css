@@ -1,0 +1,12 @@
+body {
+    scroll-behavior: smooth;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: url('../img/banner.jpg') center center / cover no-repeat;
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+  }
