@@ -1,0 +1,239 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica World", sans-serif;
+    background-color: #f6f4f0; /* Background color for the entire site */
+    color: #000000; /* Text color is black */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Giaza", serif; /* Using Giaza for all headers */
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f6f4f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar .navbar-brand {
+    font-family: "Giaza", serif;
+    font-size: 2rem;
+    color: #000000;
+    display: inline-block;
+}
+
+.navbar .navbar-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar .navbar-links a {
+    font-family: "Helvetica World", sans-serif;
+    font-size: 1rem;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.navbar .navbar-links a:hover {
+    color: #000000;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background-color: #f6f4f0;  /* Background color */
+    color: #000000;  /* Text color */
+    display: flex;
+    flex-direction: column;  /* Align items vertically */
+    align-items: center;  /* Center items horizontally */
+    justify-content: center;  /* Center items vertically */
+    text-align: center;
+    padding: 0 20px;
+    position: relative;  /* Required for positioning the image */
+}
+
+/* Hero Image - Adjust max-width to make the image smaller */
+.hero-image {
+    max-width: 60%;  /* Reduce the size of the image to 60% of the container width */
+    height: auto;  /* Maintain aspect ratio */
+    margin-bottom: 30px;  /* Space between image and text */
+}
+
+/* Hero Heading */
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+/* Hero Paragraph */
+.hero p {
+    font-family: "Helvetica World", sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+}
+
+/* Hero Button */
+.hero .btn-primary {
+    background-color: transparent;
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-family: "Helvetica World", sans-serif;
+}
+
+/* Hero Button Hover */
+.hero .btn-primary:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+
+
+/* Services Section */
+#services {
+    padding: 80px 0;
+    background-color: #f6f4f0;
+    text-align: center;
+}
+
+#services h2 {
+    font-family: "Giaza", serif;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#services p {
+    font-family: "Helvetica World", sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 50px;
+}
+
+#services .services-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 40px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#services .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+}
+
+#services .service-logo {
+    width: 150px; /* Increase logo width */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#services .service-item p {
+    font-family: "Helvetica World", sans-serif;
+    font-size: 1rem;
+    color: #222222;
+    margin-top: 10px;
+}
+
+/* Client Logos Section */
+#clients {
+    padding: 80px 0;
+    background-color: #f6f4f0;
+    text-align: center;
+}
+
+#clients h2 {
+    font-family: "Giaza", serif;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#clients .client-logos {
+    display: flex;
+    justify-content: center;  /* Center the logos horizontally */
+    align-items: center;      /* Vertically align logos */
+    gap: 40px;                /* Space between logos */
+    margin: 0 auto;
+}
+
+#clients .client-logo {
+    max-width: 150px;  /* Limit logo width */
+    height: auto;      /* Maintain aspect ratio */
+}
+
+/* Contact Section */
+#contact {
+    padding: 80px 0;
+    background-color: #f6f4f0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-family: "Giaza", serif;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#contact p {
+    font-family: "Helvetica World", sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+#contact .btn-primary {
+    background-color: transparent;
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-family: "Helvetica World", sans-serif;
+}
+
+#contact .btn-primary:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    padding: 30px 0;
+    background-color: #f6f4f0;
+    text-align: center;
+    font-family: "Helvetica World", sans-serif;
+    font-size: 0.9rem;
+}
+
+footer p {
+    color: #000000;
+    margin: 0;
+}
